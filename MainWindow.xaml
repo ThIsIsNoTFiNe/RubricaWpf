@@ -1,0 +1,18 @@
+﻿<Window x:Class="marconi.nicholas._4i.rubricaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:marconi.nicholas._4i.rubricaWPF"
+        mc:Ignorable="d"
+        Title="Rubrica" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen" 
+        Loaded="NicholasWindowLoaded"
+        
+        >
+    <Grid Margin="0,16,0,-16">
+        <DataGrid x:Name="dgDati" LoadingRow="dgDati_LoadingRow">
+            
+        </DataGrid> <!-- mostra la griglia-->
+    </Grid>
+</Window>
